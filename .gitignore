@@ -1,0 +1,31 @@
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.env
+cognisafe.db
+*.sqlite3
+
+# Audio processing
+Session_Audio/
+*.wav
+*.mp3
+*.webm
+*.webm.wav
+
+# OS
+.DS_Store
+Thumbs.db

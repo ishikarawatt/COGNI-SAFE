@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { width: 100%; min-height: 100vh; }
+body { font-family: 'Inter', sans-serif; background: #EDE8FA; color: #2D2545; -webkit-font-smoothing: antialiased; }
+/* src/styles/global.css */
+:root {
+  --text-xs:   11px;   /* tiny labels, eyebrows */
+  --text-sm:   13px;   /* captions, meta */
+  --text-base: 15px;   /* body text */
+  --text-md:   17px;   /* slightly larger body */
+  --text-lg:   20px;   /* subheadings */
+  --text-xl:   24px;   /* headings */
+  --text-2xl:  30px;   /* big headings */
+  --text-3xl:  40px;   /* stat numbers */
+}
+/* SHARED NAV — used by all pages */
+.shared-nav { display: flex; align-items: center; justify-content: space-between; padding: 0 28px; height: 56px; background: #FDFBFF; border-bottom: 1px solid #DDD5F5; position: sticky; top: 0; z-index: 100; }
+.nav-logo { display: flex; align-items: center; gap: 9px; text-decoration: none; }
+.nav-logo-box { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, #C4B0F8, #9B87F5); display: flex; align-items: center; justify-content: center; }
+.nav-logo-name { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; color: #2D2545; }
+.nav-links { display: flex; gap: 2px; }
+.nav-link { padding: 6px 13px; border-radius: 7px; font-size: 15px; color: #9B8EC0; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: all 0.18s; }
+.nav-link:hover { background: rgba(155,135,245,0.08); color: #6B52D6; }
+.nav-link.active { background: rgba(155,135,245,0.13); color: #6B52D6; font-weight: 500; }
+.nav-right { display: flex; align-items: center; gap: 10px; }
+.nav-session-btn { padding: 7px 16px; background: linear-gradient(135deg, #C4B0F8, #9B87F5); border: none; border-radius: 8px; color: #fff; font-size: 15px; font-weight: 500; font-family: 'Inter', sans-serif; cursor: pointer; box-shadow: 0 2px 10px rgba(155,135,245,0.35); transition: opacity 0.18s; }
+.nav-session-btn:hover { opacity: 0.88; }
+.nav-avatar { width: 32px; height: 32px; border-radius: 50%; background: #EDE8FA; border: 2px solid #C4B0F8; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600; color: #6B52D6; cursor: pointer; }
+
+/* PAGE FADE IN */
+.page-enter { animation: pageIn 0.3s ease both; }
+@keyframes pageIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Add to global.css or index.css */
+[data-theme="light"] {
+  --bg: #FAF8FA;
+  --bg-raised: #FFFFFF;
+  --bg-surface: #F3EDF3;
+  --bg-dark: #2E1525;
+  --text: #140A10;
+  --text-sec: #6B4F63;
+  --text-muted: #A08898;
+  --rose: #9B4F7A;
+  --rose2: #B5689A;
+  --rose-lt: #D9B8CC;
+  --rose-pale: rgba(155, 79, 122, 0.07);
+  --rose-border: rgba(155, 79, 122, 0.18);
+  --border: rgba(20, 10, 16, 0.08);
+  --shadow: rgba(46, 21, 37, 0.1);
+  --green: #3B8C5A;
+  --amber: #B88A00;
+}
+
+[data-theme="dark"] {
+  --bg: #120810;
+  --bg-raised: #1C1018;
+  --bg-surface: #201320;
+  --bg-dark: #F5F0F5;
+  --text: #F0E6EC;
+  --text-sec: #C09AB0;
+  --text-muted: #7A5A6E;
+  --rose: #D980B4;
+  --rose2: #E899C4;
+  --rose-lt: #7A3560;
+  --rose-pale: rgba(217, 128, 180, 0.09);
+  --rose-border: rgba(217, 128, 180, 0.22);
+  --border: rgba(240, 230, 236, 0.07);
+  --shadow: rgba(0, 0, 0, 0.35);
+  --green: #4DAA74;
+  --amber: #D4A835;
+}
