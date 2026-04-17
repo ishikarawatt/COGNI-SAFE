@@ -481,14 +481,6 @@ Research shows that **speech and language changes precede clinical dementia diag
 | 📋 FDA | 2027 | Breakthrough Device Designation, clinical validation study | 🔮 Future |
 | 💊 Pharma | 2028–2030 | Clinical trial API, pharma licensing, global rollout | 🔮 Future |
 
-### Backlog
-
-- 🎨 **UI/UX** — A/B tested caregiver dashboard redesign
-- 🔐 **Privacy** — End-to-end encryption, on-device ML inference
-- 🌍 **Multilingual** — Biomarkers for Spanish, Mandarin, French
-- 📊 **Advanced Analytics** — Predictive modeling, risk trajectory forecasting
-- 🤝 **Integration** — Apple Health, Google Fit, EHR systems
-
 ---
 
 ## 👥 Team
@@ -498,8 +490,8 @@ Research shows that **speech and language changes precede clinical dementia diag
 | Member | Role | GitHub | 
 |---|---|---|
 | Ishika Rawat | 🎨 Frontend Engineer | [@ishikarawatt](https://github.com/ishikarawat) |
-| Farjan Alam | 🤖 AI/ML | [@SyntaxSaviour](https://github.com/alamfarzan) |
-| Vansh Singh | ⚙️ Backend Engineer | [@vanshsingh2411](https://github.com/vanshsingh) |
+| Trisha Dabral| 🤖 AI/ML | [@SyntaxSaviour](https://github.com/alamfarzan) |
+| Reeta Gupta | ⚙️ Backend Engineer | [@vanshsingh2411](https://github.com/vanshsingh) |
 | Akansha Parley | 📋 Product & Demo | [@akansaa](https://github.com/akanshaparley) | 
 
 ---
@@ -514,7 +506,7 @@ Free to use, modify, and distribute for personal and commercial projects.
 
 <div align="center">
 
-Built with 💙 by **Team FAIV**
+Built with 💙 by **Team Elixis**
 
 > *"We are not building an app. We are building the world's largest longitudinal cognitive dataset —*
 > *and using it to give families the one thing they desperately want: **time**."*
