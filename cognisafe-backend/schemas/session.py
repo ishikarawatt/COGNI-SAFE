@@ -44,6 +44,7 @@ class SessionResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
 class HistoryItem(BaseModel):
     date:               str
     status:             str
