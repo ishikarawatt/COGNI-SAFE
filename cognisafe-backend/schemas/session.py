@@ -20,7 +20,6 @@ class SessionCreate(BaseModel):
     emotional_entropy:    Optional[float] = None
     has_anomaly:          Optional[bool]  = False
     anomaly_flags:        Optional[str]   = None
-
 class SessionResponse(BaseModel):
     id:                   int
     risk_tier:            str
