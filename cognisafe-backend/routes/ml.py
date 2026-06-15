@@ -14,7 +14,6 @@ HF_BASE = "https://alamfarzann-cognisafe-ml.hf.space"  # Replace with your actua
 # Stages:   "uploading" → "transcribing" → "acoustic" → "nlp" → "risk" → "done"
 _jobs: dict = {}
 
-
 def _run_analysis(job_id: str, audio_bytes: bytes, user_id: str):
     """Runs in a background thread. Updates _jobs[job_id] as each stage completes."""
     try:
